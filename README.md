@@ -2,7 +2,7 @@
 
 ## Team:
 Dhiraj Dommaraju - **ddommaraju**[ddommaraju@csuchico.edu] <br>
-Kshiraj Kunta <br>
-Parag Bharat Naik <br>
-Fatima Sultana <br>
-Jayesh D Shinde <br>
+Kshiraj Kunta - **kkunta**[kkunta@csuchico.edu] <br>
+Parag Bharat Naik - **pnaik1**[pnaik1@csuchico.edu] <br>
+Fatima Sultana - **fsultana**[fsultana@csuchico.edu] <br>
+Jayesh D Shinde - **jdshinde**[jdshinde@csuchico.edu] <br>
