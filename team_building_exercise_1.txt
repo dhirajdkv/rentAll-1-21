@@ -29,3 +29,18 @@ Dhiraj: I cook really well
 Kshiraj: I learned how to swim after coming to US 
 Jayesh: I have travelled 10 states in 1 year
 Parag: Speaking german fluently 
+
+
+
+Jayesh Shinde
+
+I speak three languages fluently.(T)
+I've travelled to over 10 States in the past year in India.(T)
+I've run a marathon.(F)
+
+Can cook really well → Dhiraj
+Eating meat → kshiraj
+About dance → Fatima
+Speaking German → parag
+
+
