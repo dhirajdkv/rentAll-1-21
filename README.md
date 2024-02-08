@@ -1,8 +1,8 @@
 # rentAll-1-21
 
 ## Team:
-Dhiraj Dommaraju - **ddommaraju**[ddommaraju@csuchico.edu]
-Kshiraj Kunta
-Parag Bharat Naik
-Fatima Sultana
-Jayesh D Shinde 
+Dhiraj Dommaraju - **ddommaraju**[ddommaraju@csuchico.edu] <br>
+Kshiraj Kunta <br>
+Parag Bharat Naik <br>
+Fatima Sultana <br>
+Jayesh D Shinde <br>
