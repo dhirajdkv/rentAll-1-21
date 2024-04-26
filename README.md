@@ -66,7 +66,11 @@ Team Members Details
 
 
 Dhiraj Dommaraju - ddommaraju@csuchico.edu
+
 Fatima Sultana - fsultana@csuchico.edu
+
 Kshiraj Kunta - kkunta@csuchico.edu
+
 Jayesh Shinde - jdshinde@csuchico.edu
+
 Parag Naik - pnaik1@csuchico.edu
