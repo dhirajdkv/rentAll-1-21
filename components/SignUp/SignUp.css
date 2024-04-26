@@ -1,0 +1,102 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #e6f4ff;
+  }
+  
+  .SUform-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: auto;
+    background: #e6f4ff;
+  }
+  
+  .SUform-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .SUform-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .SUform-input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .SUform-input:focus {
+    outline: none;
+    border-color: #5F9EA0;
+  }
+  
+  .SUform-button {
+    background-color: #5F9EA0;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .SUform-button:hover {
+    background-color: #5F9EA0;
+  }
+  
+  .SUform-link {
+    color: #5F9EA0;
+    text-decoration: none;
+  }
+  
+  .SUform-link:hover {
+    text-decoration: underline;
+  }
+  .m{
+    padding: 20px;
+  }
+
+  .SignUP-welcome {
+    width: 20%; /* Right section takes half the space */
+    background: #43cea2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #185a9d, #43cea2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white; /* White text */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center; /* Centered text */
+    display: flex; /* Flex for alignment */
+    flex-direction: column; /* Vertical stacking */
+    justify-content: center; /* Center vertically */
+    padding: 85px; /* Padding for even spacing */
+    border-radius: 10px; 
+    height: 290px;
+
+
+  }
+  
+  .SignUP-welcome h3 {
+    font-size: 36px; /* Larger font size */
+    margin: 0; /* No margin */
+  }
+  
+  .SignUP-welcome p {
+    font-size: 24px; /* Slightly smaller font size */
+    margin: 0; /* No margin */
+  }
+  
