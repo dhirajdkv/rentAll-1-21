@@ -4,11 +4,11 @@ import Typed from "react-typed";
 import MetaData from "../layout/MetaData";
 import { useDispatch, useSelector } from "react-redux";
 import { STATUSES } from "../../store/statuses";
-import ProductCard from "../layout/ProductCard";
-import CategoriesList from "../Product/CategoriesList";
+// import ProductCard from "../layout/ProductCard";
+// import CategoriesList from "../Product/CategoriesList";
 import Footer from "../layout/Footer";
 import { useNavigate } from "react-router-dom";
-import { fetchProducts } from "../../slices/productSlice/productsSlice";
+// import { fetchProducts } from "../../slices/productSlice/productsSlice";
 import { Skeleton } from "@mui/material";
 
 const Home = () => {
@@ -17,9 +17,9 @@ const Home = () => {
 
   const { data: products, status } = useSelector((state) => state.products);
 
-  useEffect(() => {
-    dispatch(fetchProducts());
-  }, [dispatch]);
+  // useEffect(() => {
+  //   dispatch(fetchProducts());
+  // }, [dispatch]);
 
   return (
     <>
@@ -53,7 +53,7 @@ const Home = () => {
 
       {/* <p className="font-medium text-xl text-center m-4">Featured Products</p> */}
 
-      {status === STATUSES.LOADING ? (
+      {/* {status === STATUSES.LOADING ? (
         <div className="flex mx-auto max-w-[80%] justify-center flex-wrap">
           {[...Array(8)].map(() => (
             <Skeleton
@@ -73,7 +73,7 @@ const Home = () => {
                 <ProductCard key={product._id} product={product} />
               ))}
         </div>
-      )}
+      )} */}
 
       <div className="flex justify-center   my-5">
         <button

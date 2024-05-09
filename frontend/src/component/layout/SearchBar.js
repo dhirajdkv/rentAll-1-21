@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { fetchProducts2 } from "../../slices/productSlice/productsSlice";
+// import { fetchProducts2 } from "../../slices/productSlice/productsSlice";
 
 const SearchBar = () => {
   const dispatch = useDispatch();
@@ -13,7 +13,7 @@ const SearchBar = () => {
     e.preventDefault();
     if (keyword.trim()) {
       //trim removes space from the beginning and end
-      dispatch(fetchProducts2({ keyword }));
+      // dispatch(fetchProducts2({ keyword }));
       navigate(`/products/${keyword}`);
     } else {
       navigate("/products");
