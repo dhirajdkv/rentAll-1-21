@@ -58,8 +58,10 @@ https://docs.google.com/document/d/1Z8_FaLmfJuNHlbMsvdP9Rnlabhlob1JSRXAtq91geY0/
 Link to Kan board
 https://630-team.atlassian.net/jira/software/projects/KAN/boards/1
 
+GP 8-2
+https://docs.google.com/document/d/1Z8_FaLmfJuNHlbMsvdP9Rnlabhlob1JSRXAtq91geY0/edit?usp=sharing
 
-
+Product Backlog - https://docs.google.com/document/d/1Va85Xro2CKrcS2ZFuBr8XwxogYfm3Kog/edit?usp=sharing&ouid=103916248692848637825&rtpof=true&sd=true
 ## Contact Information
 For questions or additional information about the RentALL project, please contact the project team.
 Team Members Details
