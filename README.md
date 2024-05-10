@@ -53,7 +53,7 @@ https://docs.google.com/document/d/1hlR5NFLYcCB1VqNJfnDuIKphbOC3Iz_3NK2DyN-gQYE/
 GP 8
 
 Retrospective Report
-https://docs.google.com/document/d/1Z8_FaLmfJuNHlbMsvdP9Rnlabhlob1JSRXAtq91geY0/edit#heading=h.g2jsizukn4bd
+https://docs.google.com/document/d/1PRSBqpDaBLvTI4gPHVx5kVHxLRYIcOVi5vhmvUWDkRE/edit?usp=sharing
 
 Link to Kan board
 https://630-team.atlassian.net/jira/software/projects/KAN/boards/1
