@@ -62,48 +62,8 @@ function App() {
             path="profile"
             element={<ProtectedRoute Component={UserProfile} />}
           />
-          <Route
-            path="updateprofile"
-            element={<ProtectedRoute Component={UpdateUserProfile} />}
-          />
-          <Route
-            path="updatepassword"
-            element={<ProtectedRoute Component={UpdatePassword} />}
-          />
-          <Route path="password/forget" element={<ForgetPassword />} />
         </Route>
-        {/* <Route
-          path="myorders"
-          element={<ProtectedRoute Component={Myorders} />}
-        />
-        <Route
-          path="order/:id"
-          element={<ProtectedRoute Component={SingleOrder} />}
-        /> */}
-        <Route path="password/reset/:token" element={<ResetPassword />} />
-        <Route
-          path="forgetpasswordmessage"
-          element={<ForgetPasswordMessage />}
-        />
-        {/* <Route path='admin'>
-          <Route path="dashbord" element={<ProtectedRoute Component={Dashbord} adminOnly={true} />} />
-          <Route path="manageuser" element={<ProtectedRoute Component={ManageUser} adminOnly={true} />} />
-          <Route path="user/:id" element={<ProtectedRoute Component={ManageSingleUser} adminOnly={true} />} />
-          <Route path="manageproduct">
-            <Route index element={<ProtectedRoute Component={Manageproduct} adminOnly={true} />} />
-            <Route path="addproduct" element={<ProtectedRoute Component={AddProduct} adminOnly={true} />} />
-            <Route path="editproduct" element={<ProtectedRoute Component={EditProduct} adminOnly={true} />} />
-          </Route>
-          <Route path="product/:id" element={<ProtectedRoute Component={ManageSingleProduct} adminOnly={true} />} />
-          <Route path="manageorder" element={<ProtectedRoute Component={ManageOrders} adminOnly={true} />} />
-          <Route path="order/:id" element={<ProtectedRoute Component={ManageSingleOrder} adminOnly={true} />} />
-          <Route path="managereviews" element={<ProtectedRoute Component={ManageReviews} adminOnly={true} />} />
-        </Route> */}
         <Route path="aboutme" element={<AboutMe />} />
-        {/* <Route
-          path="contactus"
-          element={<ProtectedRoute Component={ContactUs} />}
-        /> */}
         <Route path="*" element={<PageNotFound />} />
       </Route>
     </Routes>

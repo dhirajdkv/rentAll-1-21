@@ -2,20 +2,28 @@ import React from "react";
 import { render } from "@testing-library/react";
 import Footer from "./Footer";
 
-describe("Footer Component", () => {
-  test("renders Footer component", () => {
-    const { getByText, getByRole } = render(<Footer />);
+// Mocking the ContactMe component
+jest.mock("./ContactMe", () => () => <div>ContactMe component</div>);
 
-    // Check if "One stop shop for buying, selling & rentals" text is rendered
-    const footerText = getByText(
-      /One stop shop for buying, selling & rentals ./i
+describe("Footer component", () => {
+  it("renders the Footer component with uncommented code", () => {
+    const { getByAltText, getByText } = render(<Footer />);
+
+    // Ensure the logo is rendered
+    const logoImage = getByAltText("rentAll Logo");
+    expect(logoImage).toBeInTheDocument();
+
+    // Ensure the italic text is rendered
+    const italicText = getByText(
+      "One stop shop for buying, selling & rentals ."
     );
-    expect(footerText).toBeInTheDocument();
+    expect(italicText).toBeInTheDocument();
 
-    // Check if "Copyright 2024" text is rendered within the footer
-    const copyrightText = getByText(/Copyright 2024/i);
+    // Ensure the copyright text is rendered
+    const copyrightText = getByText("Copyright 2024 © rentAll:");
     expect(copyrightText).toBeInTheDocument();
 
-    // Add more assertions for other elements/components as needed
+    // Ensure the ContactMe component is not rendered
+    expect(() => getByText("ContactMe component")).toThrow();
   });
 });

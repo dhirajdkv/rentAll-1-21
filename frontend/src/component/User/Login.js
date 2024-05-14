@@ -106,9 +106,6 @@ const Login = () => {
             <Link class="text-xs" to="/user/signup" state={location.state}>
               New User? Create Account
             </Link>
-            <Link className="text-xs text-red-400" to="/user/password/forget">
-              Forget Password
-            </Link>
           </div>
         </div>
         <div className="w-full flex justify-between items-center max-w-sm px-4">

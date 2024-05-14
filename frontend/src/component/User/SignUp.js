@@ -64,11 +64,6 @@ const SignUp = () => {
     if (isAuthenticated) {
       navigate("/");
     }
-    if (isEmailSend) {
-      toast.success("verification link send");
-      dispatch(resetIsEmailSend());
-      navigate("/user/verifymessage");
-    }
     if (error) {
       toast.error(error);
       dispatch(resetError());
