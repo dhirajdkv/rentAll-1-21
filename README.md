@@ -41,11 +41,23 @@ GP 7
 https://docs.google.com/document/d/1fCFJkhc5H0utt46o2oM1W4AUwc3CHuAyrgDGTF8Qv_s/edit
 https://docs.google.com/document/d/1hlR5NFLYcCB1VqNJfnDuIKphbOC3Iz_3NK2DyN-gQYE/edit
 
+GP8-1 Retrospective report
+https://docs.google.com/document/d/1PRSBqpDaBLvTI4gPHVx5kVHxLRYIcOVi5vhmvUWDkRE/edit
+
+GP8-2 Retrospective report
+https://docs.google.com/document/d/1Z8_FaLmfJuNHlbMsvdP9Rnlabhlob1JSRXAtq91geY0/edit
+
+
 ## Contact Information
 For questions or additional information about the RentALL project, please contact the project team.
 Team Members Details
+
 Dhiraj Dommaraju 
+
 Fatima Sultana
+
 Kshiraj Kunta
+
 Jayesh Shinde
+
 Parag Naik
