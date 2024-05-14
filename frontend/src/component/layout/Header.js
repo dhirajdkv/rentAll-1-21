@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-      <nav className="bg-slate-200 dark:bg-slate-800 dark:text-white sticky  top-0 z-10">
+      <nav className="bg-slate-900 dark:bg-slate-800 dark:text-white sticky  top-0 z-10">
         <div className="lg:w-full w-3/4 mx-auto">
           <div className="max-w-5xl p-4 mx-auto flex justify-between items-center ">
             <img

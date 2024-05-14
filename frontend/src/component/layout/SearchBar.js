@@ -28,7 +28,7 @@ const SearchBar = () => {
       <input
         className="text-black outline-none h-[40px] pl-5  rounded-md mx-auto w-3/4 md:w-full "
         type="text"
-        placeholder="Search..."
+        placeholder="Search products"
         onChange={(e) => setKeyword(e.target.value)}
       />
     </form>

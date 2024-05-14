@@ -26,7 +26,7 @@ const ProductCard = ({ product }) => {
             <ReactStarts {...options} />
             <span>{product.numberOfReviews}</span>
           </div>
-          <span className="text-orange-500 font-bold">{`$${product.price}`}</span>
+          <span className="text-black-500 font-bold">{`$${product.price}`}</span>
         </div>
       </div>
     </Link>

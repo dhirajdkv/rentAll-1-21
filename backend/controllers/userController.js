@@ -32,7 +32,7 @@ exports.registerUser = catchAsyncErrors(async (req, res, next) => {
       name,
       email,
       password,
-      verificationToken,
+      verificationToken: "ldhkddk",
       verified: true,
       avatar: {
         public_id: myCloud.public_id,
